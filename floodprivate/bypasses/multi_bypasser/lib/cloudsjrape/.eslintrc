@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "standard",
+    "plugin:promise/recommended"
+  ],
+  "plugins": [
+    "node",
+    "json"
+  ],
+  "rules": {
+    "semi": [2, "always"],
+    "no-trailing-spaces": [0],
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclarator": true
+      }
+    }]
+  },
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "parser": "@typescript-eslint/parser",
+      "extends": [
+        "standard",
+        "plugin:promise/recommended",
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "rules": {
+        "semi": [2, "always"]
+      }
+    }
+  ]
+}

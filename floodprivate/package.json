@@ -1,0 +1,30 @@
+{
+  "name": "newbypass",
+  "version": "1.0.0",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cluster": "^0.7.7",
+    "colors": "^1.4.0",
+    "events": "^3.2.0",
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.1",
+    "random-useragent": "^0.5.0",
+    "randomstring": "^1.1.5",
+    "stormwall-bypass": "^1.0.1",
+    "sync-request": "^6.1.0",
+    "tor-request": "^3.1.0",
+    "url": "^0.11.0",
+    "ws": "^7.2.1",
+    "zombie": "^6.1.4"
+  },
+  "devDependencies": {
+    "cloudscraper": "^4.6.0",
+    "https-proxy-agent": "^5.0.0",
+    "request": "^2.88.2",
+    "socks5-http-client": "^1.0.4"
+  }
+}
