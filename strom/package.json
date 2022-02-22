@@ -1,0 +1,36 @@
+{
+  "name": "newbypass",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sesamestrong/puppeteer-recaptcha-solver": "^1.0.0",
+    "apt-get": "^0.1.0",
+    "bestcaptchasolver": "^1.0.8",
+    "captcha-solver": "0.0.6",
+    "cheerio": "^1.0.0-rc.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "net-socket": "^1.1.0",
+    "node-worker-threads-pool": "^1.4.0",
+    "puppeteer": "^5.2.1",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.1",
+    "random-useragent": "^0.4.0",
+    "socket.io": "^2.3.0",
+    "stormwall-bypass": "^1.0.1",
+    "sync-request": "^6.1.0",
+    "tor": "0.0.1",
+    "tor-request": "^3.1.0",
+    "url": "^0.11.0",
+    "wayang": "^1.0.8",
+    "ws": "^7.2.1",
+    "zombie": "^6.1.4"
+  },
+  "devDependencies": {
+    "cloudscraper": "^4.6.0",
+    "https-proxy-agent": "^5.0.0",
+    "request": "^2.88.2",
+    "socks5-http-client": "^1.0.4"
+  }
+}
